@@ -1,0 +1,264 @@
+a{
+	color: rgb(121, 145, 58);
+	text-decoration: none; 
+	font-size:30px;
+}
+
+h1 {
+	font-family: "Indie Flower", cursive;
+	margin:40px;
+	font-size:35px;
+	text-align:center;
+}
+
+body {
+	font-family: "Indie Flower", cursive;
+	background: rgb(199,255,135);
+background: linear-gradient(0deg, rgba(199,255,135,1) 0%, rgba(248,255,179,1) 100%);
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.margins{
+	margin-left:200px;
+	margin-right: 200px;
+}
+
+div2{
+/* temp div container for other purposes*/
+}
+
+subtitlle{
+	top: 0px;
+}
+
+p{
+	font-family: "Indie Flower", cursive;
+	font-size: 25px;
+}
+
+floatingheader {
+	position:fixed;
+	top: 0;
+	left: 0;
+	bottom: 580px;
+	width: 100%;
+	background-color: rgba(184, 214, 86, 0.9);
+	color: #fff;
+	padding: 10px;
+}
+
+floatingheaderpg {
+	position:fixed;
+	top: 0;
+	left: 0;
+	bottom: 567px;
+	width: 100%;
+	background-color: rgba(184, 214, 86, 0.9);
+	color: #fff;
+	padding: 10px;
+}
+
+floaticon {
+	position:sticky;
+	margin-left:750px;
+	padding-top:0px;
+	top: 0;
+}
+
+meow {
+
+}
+
+.headerbutton {
+	text-align:center;
+	float:left;
+	width:200px;
+	height:15px;
+	margin-left:30px;
+}
+
+.headerbutonfixed{
+	text-align: center;
+	float: left;
+	width:200px;
+	margin-left:30px;
+	margin-top: 10px;
+}
+
+.featured {
+	text-align:left;
+	float:right;
+	width:200px;
+	height:10px;
+	margin-left:5px;
+	font-size:23px;
+}
+
+.featuredtitle {
+	text-align:left;
+	float:right;
+	width:200px;
+	height:10px;
+	margin-left:5px;
+	font-size:28px;
+}
+
+.featuretext{
+	text-align:left;
+	float:right;
+	width:200px;
+	height:5px;
+	margin-left:5px;
+	font-size:20px;
+}
+
+
+.featuretextend {
+	clear: both;
+	height:0px;
+}
+
+.cat {
+	scale: 70%;
+	margin-left:490%;
+	float: right;
+}
+
+.subcolumn {
+	text-align:center;
+	float:left;
+	width:200px;
+	height:15px;
+	margin-left:50px;
+	font-size:25px;
+}
+
+.subimage {
+	text-align:center;
+	float:left;
+	width:100%;
+	height:15px;
+	padding-left:50px;
+	padding-right: 50px;
+	font-size:25px;
+}
+
+.headerend {
+	clear: both;
+	height: 50px;
+}
+
+.featureend {
+	clear: both;
+	height: 20px;
+}
+
+.title {
+	font-size:100px;
+	text-align:center;
+	margin-top:35px;
+	margin-bottom:50px;
+
+}
+
+.center {
+	text-align:center;
+}
+
+.space1 {
+	padding-top:110px;
+}
+
+.space2 {
+	padding-top: 250px;
+}
+
+.space3 {
+	padding-top: 60px;
+}
+
+.space4 {
+	padding-top: 40px;
+}
+
+.bgimg {
+	z-index: -1;
+}
+
+.textclick {
+	z-index :1;
+}
+
+.grid1{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:75px;
+	padding:10px;
+	place-items:center;
+
+}
+/* grid elements ? */
+
+
+
+.grid1 > div {
+/* you can add bg in here*/
+	min-height:300px;
+	width:300px;
+	display:grid1;
+}
+
+.grid1 > div::before{ 
+	/*content: "";*/
+	padding-top: 100%;
+	display: block;
+	/*background:red;*/
+ }
+
+.grid1 > div >img { 
+	width:100%;
+	height:100%;
+	object-fit: contain;
+	grid-area: 1/1/2/2; 
+ }
+
+ /* illustration gridding*/
+
+ .gridillust{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:90px;
+	padding:140px;
+	place-items:center;
+
+}
+/* grid elements ? */
+
+
+
+.gridillust > div {
+/* you can add bg in here*/
+	min-height:450px;
+	width:450px;
+	display:gridillust;
+}
+
+.gridillust > div::before{ 
+	/*content: "";*/
+	padding-top: 100%;
+	display: block;
+	/*background:red;*/
+ }
+
+.gridillust > div >img { 
+	width:100%;
+	height:100%;
+	object-fit: contain;
+	grid-area: 1/1/2/2; 
+ }
